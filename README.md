@@ -1,30 +1,24 @@
-# JSTransformer Boilerplate
+# jstransformer-node-twig
 
-Use JSTransformer Boilerplate to create and update transformers.
+[node-twig](https://github.com/bitmade/node-twig) support for [JSTransformers](http://github.com/jstransformers).
 
-1. Visit [the Boilerplate Wiki](https://github.com/jstransformers/boilerplate/wiki) on how to get started
-2. Remove this top notice from any transformers
-
-# jstransformer-foo
-
-[Foo](http://example.com) support for [JSTransformers](http://github.com/jstransformers).
-
-[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-foo/master.svg)](https://travis-ci.org/jstransformers/jstransformer-foo)
-[![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-foo/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-foo)
-[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-foo/master.svg)](http://david-dm.org/jstransformers/jstransformer-foo)
-[![NPM version](https://img.shields.io/npm/v/jstransformer-foo.svg)](https://www.npmjs.org/package/jstransformer-foo)
+[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-node-twig/master.svg)](https://travis-ci.org/jstransformers/jstransformer-node-twig)
+[![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-node-twig/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-node-twig)
+[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-node-twig/master.svg)](http://david-dm.org/jstransformers/jstransformer-node-twig)
+[![NPM version](https://img.shields.io/npm/v/jstransformer-node-twig.svg)](https://www.npmjs.org/package/jstransformer-node-twig)
 
 ## Installation
 
-    npm install jstransformer-foo
+    npm install jstransformer-node-twig
 
 ## API
 
 ```js
-var foo = require('jstransformer')(require('jstransformer-foo'));
+var twig = require('jstransformer')(require('jstransformer-node-twig'));
 
-foo.render('blah').body
-//=> 'blah'
+// Hello, {{world}}!
+twig.renderFileAsync('hello.twig', {}, {world: Earth}).body
+//=> 'Hello, Earth'
 ```
 
 ## License

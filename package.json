@@ -1,7 +1,11 @@
 {
-  "name": "jstransformer-foo",
-  "version": "0.0.0",
-  "description": "Foo support for JSTransformers.",
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "node-twig": "^1.1.0"
+  },
+  "name": "jstransformer-node-twig",
+  "version": "0.0.1",
+  "description": "Node-Twig support for JSTransformers.",
   "keywords": [
     "jstransformer"
   ],
@@ -22,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jstransformers/jstransformer-foo.git"
+    "url": "https://github.com/jstransformers/jstransformer-node-twig.git"
   },
   "author": {
     "name": "JSTransformers Team",
