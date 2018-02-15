@@ -1,7 +1,5 @@
 # jstransformer-node-twig
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-node-twig.svg)](https://greenkeeper.io/)
-
 [node-twig](https://github.com/bitmade/node-twig) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-node-twig/master.svg)](https://travis-ci.org/jstransformers/jstransformer-node-twig)
