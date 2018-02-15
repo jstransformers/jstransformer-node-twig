@@ -15,7 +15,7 @@
 ## API
 
 ```js
-var twig = require('jstransformer')(require('jstransformer-node-twig'));
+var twig = require('jstransformer')(require('jstransformer-node-twig'))
 
 // Hello, {{world}}!
 twig.renderFileAsync('hello.twig', {}, {world: Earth}).body
