@@ -4,7 +4,7 @@
     "node-twig": "^1.1.0"
   },
   "name": "jstransformer-node-twig",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node-Twig support for JSTransformers.",
   "keywords": [
     "jstransformer"
