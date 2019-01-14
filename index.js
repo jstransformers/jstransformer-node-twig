@@ -19,6 +19,7 @@ exports.renderFileAsync = function (file, options, locals) {
       if (err) {
         return reject(err)
       }
+
       resolve(template)
     })
   })
